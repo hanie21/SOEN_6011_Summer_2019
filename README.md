@@ -15,7 +15,7 @@ When α = n and n is a positive integer, then the gamma function is related to t
 # Characteristics
 The gamma function can be seen as a solution to the following interpolation problem:
 
-"Find a smooth curve that connects the points  {\displaystyle (x,y)} (x,y) given by {\displaystyle y=(x-1)!} {\displaystyle y=(x-1)!} at the positive integer values for  {\displaystyle x} x."
+"Find a smooth curve that connects the points  {\displaystyle (x,y)} (x,y) given by {\displaystyle y=(x-1)!} {\displaystyle y=(x-1)!} at the positive integer values for x."
 
 # Domain
 Any positive integer n,
