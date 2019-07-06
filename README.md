@@ -4,7 +4,8 @@ Repository for the SOEN 6011(Engineering Process) ,Implemention of Gamma functio
 
 # Definition
 The gamma function, Γ(α), for α > 0, is defined as
-Γ(α) = Z (Integral I could not put the sign)
+Γ(α) = Z (Integral I could not put the sign) but it is equal with the below formula
+Γ(α) = (α − 1)Γ(α − 1)
 
 The gamma function satisfies the recursive property
 Γ(α) = (α − 1)Γ(α − 1)
