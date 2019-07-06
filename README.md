@@ -3,7 +3,20 @@
 Repository for the SOEN 6011(Engineering Process) ,Impletion of Gamma function(F5),Γ(x).
 
 # Definition
-Gamma:  Γ(x) = (n-1)!
-The gamma function is defined for all complex numbers except the non-positive integers, and for any positive 
+The gamma function, Γ(α), for α > 0, is defined as
+Γ(α) = Z 
+
+The gamma function satisfies the recursive property
+Γ(α) = (α − 1)Γ(α − 1)
+
+When α = n and n is a positive integer, then the gamma function is related to the factorial function:
+Γ(n) = (n − 1)!
 
 # Characteristics
+
+# Domain
+Any positive integer n,
+positive real
+
+# Sub Domain
+
