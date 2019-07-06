@@ -22,4 +22,4 @@ Any positive integer n,
 positive real
 
 # Sub Domain
-
+R+ , Z+
