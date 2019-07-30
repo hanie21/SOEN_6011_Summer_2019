@@ -1,6 +1,21 @@
 public final class Mathematic {
+  /*
+   * @author Hanieh Qasemi. version 1.0.1.1. This is the mathematic class that all calculation is
+   * used here.
+   */
+
+  /*
+   * A constant that contain the value of Pi number.
+   */
   public static final double PI = 3.141592653589793;
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate exp
+   * 
+   * @return: the result is exp(x)
+   */
   public static double exp(double x) {
     if (x < 0)
       return 1 / exp(-x);
@@ -16,6 +31,13 @@ public final class Mathematic {
     return result;
   }
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate log
+   * 
+   * @return: the result is log(x)
+   */
   public static double log(double x) {
     if (x < 0)
       return Double.NaN;
@@ -33,10 +55,24 @@ public final class Mathematic {
     return 2 * result;
   }
 
+  /*
+   * @param: x and a are the parameters.
+   * 
+   * @This function calculate log a and x
+   * 
+   * @return: the result is log(x,a)
+   */
   public static double log(double x, double a) {
     return log(x) / log(a);
   }
 
+  /*
+   * @param: x and a are parameters.
+   * 
+   * @This function calculate power of x
+   * 
+   * @return: the result is power(x) of the value of a.
+   */
   public static double pow(double x, int a) {
     double result = 1;
     if (a < 0) {
@@ -54,6 +90,13 @@ public final class Mathematic {
     return result;
   }
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate sqrt
+   * 
+   * @return: the result is sqrt(x)
+   */
   public static double sqrt(double x) {
     if (x < 0)
       return Double.NaN;
@@ -83,6 +126,13 @@ public final class Mathematic {
     return result;
   }
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate sin
+   * 
+   * @return: the result is sin(x)
+   */
   public static double sin(double x) {
     int sign = 1;
     if (x < -PI / 2)
@@ -103,6 +153,13 @@ public final class Mathematic {
     return sign * result;
   }
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate Cos
+   * 
+   * @return: the result is Cos(x)
+   */
   public static double cos(double x) {
     int sign = 1;
     if (x < -PI / 2)
@@ -123,6 +180,13 @@ public final class Mathematic {
     return sign * result;
   }
 
+  /*
+   * @param: x is a param.
+   * 
+   * @This function calculate tan
+   * 
+   * @return: the result is tan(x)
+   */
   public static double tan(double x) {
     return sin(x) / cos(x);
   }
