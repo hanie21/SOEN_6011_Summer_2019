@@ -1,0 +1,22 @@
+https://github.com/hanie21/SOEN_6011_Summer_2019/blob/e593af0f9383f0028b45eb466477c400299711a1/src/SinTest.java
+
+- Please provide proper test name for the test , method test() is too generic , it does not say about what you are testing.
+- Please add the scenrio where you test for decimal number other than zero , for example 11.12133
+
+https://github.com/hanie21/SOEN_6011_Summer_2019/blob/e593af0f9383f0028b45eb466477c400299711a1/src/logTest.java
+
+- Please provide proper name of the class, as per programming style selected class name should start with capital letter , LogTest
+- Please provide proper name to method , method names should be camel case  for example , logTest().
+- Please add the test where you test for decimal number other than zero , for example 11.12133
+
+https://github.com/hanie21/SOEN_6011_Summer_2019/blob/e593af0f9383f0028b45eb466477c400299711a1/src/powerTest.java
+
+- Please provide proper name of the class, as per programming style selected class name should start with capital letter , PowerTest
+- Please provide proper test name for the test , method test() is too generic , it does not say about what you are testing.
+- Please add the test where you test for decimal number other than zero , for example 11.1213.
+- Please add the scenrio where you can test for the boundry values , what if you provide input more than Double.MAX_VALUE
+
+https://github.com/hanie21/SOEN_6011_Summer_2019/blob/e593af0f9383f0028b45eb466477c400299711a1/src/CosTest.java
+
+- Please provide proper test name for the test , method test() is too generic , it does not say about what you are testing.
+- Please add the test where you test for decimal number other than zero , for example 11.12133
