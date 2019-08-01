@@ -1,3 +1,5 @@
+Function test and test  review done by : Prashantkumar Patel (40046876)
+
 https://github.com/hanie21/SOEN_6011_Summer_2019/blob/e593af0f9383f0028b45eb466477c400299711a1/src/SinTest.java
 
 - Please provide proper test name for the test , method test() is too generic , it does not say about what you are testing.
